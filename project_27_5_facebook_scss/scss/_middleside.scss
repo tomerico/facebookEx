@@ -1,0 +1,392 @@
+.middle{
+  position: absolute;
+  left:30%;
+  /* border: solid 1px; */
+    
+}
+
+.firstEl
+{
+  // position:absolute;
+  top: 10px;
+  left: 10px;
+  width: 500px;
+  height:155px;
+  background-color: white;
+  /* border-radius: 1%; */
+  /* z-index: 1; */ 
+}
+
+
+.boxHeader
+{
+  display:flex;
+  justify-content: flex-start;
+  background-color:#f6f7f9;
+  border-bottom: 1px solid #dddfe2;
+  height:30px;
+}
+
+
+
+.boxHeader::after {
+  position: absolute;  
+  border-bottom: 8px solid #fff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  content: '';
+  left: 30px;
+  top: 34px;
+}
+
+.boxHeaderItem
+{
+  display:flex;
+  // border-right: 1px solid purple;
+}
+
+.verticalLine
+{
+  border-left:1px solid #4b4f56; //#ff0000
+  line-height: 1.5;
+  // display:inline-block;
+  // position: relative;
+  // width:10px;
+  // height: 5px;
+  // color:red;
+}
+
+.makePost
+{
+  display:flex;
+  justify-content: center;
+  padding: 8px 8px 0px 10px;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1d2129;
+}
+
+.photoVideo
+{
+  display:flex;
+  justify-content: center;
+  padding: 8px 8px 0px 10px;
+  font-family: Helvetica;  
+  font-size: 12px;
+  font-weight: bold;
+  color: #1d2129;
+}
+
+.LiveVideo
+{
+  display:flex;
+  justify-content: center;
+  padding: 8px 8px 0px 10px;
+  font-family: Helvetica;  
+  font-size: 12px;
+  font-weight: bold;
+  color: #1d2129;
+}
+
+.boxContent
+{
+  padding: 15px;
+}
+
+.boxContent .imgWrapContent img
+{
+  width:48px;
+  height:48px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.imgWrapContent
+{
+    display: inline-block;
+}
+
+.yourMindText
+{
+  display: inline-block;
+  font-family: Helvetica;
+  font-size:16px;
+  color: #8d949e;
+  font-weight: normal;
+  // padding-top:3px;
+}
+
+.userThoughts
+{
+  margin-bottom: 10px;
+}
+
+.userInfo
+{
+  display: flex;
+  justify-content: flex-start;
+  line-height: 18px;
+}
+
+.photoVideoUplaoding
+{
+  padding: 6px;
+  background-color:#f6f7f9;
+  border-radius: 5%;
+  color:#4b4f56;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.feelingActivity
+{
+  padding: 6px;
+  background-color:#f6f7f9;
+  margin-left: 10px;
+  border-radius: 5%;
+  color:#4b4f56;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.iconItemMore
+{
+  padding: 6px;
+  background-color:#f6f7f9;
+  margin-left: 10px;
+  border-radius: 5%;
+}
+
+.iconItemMore img
+{
+//  width: 16px;
+ height: 4px;
+}
+
+.posts
+{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column; 
+  margin-top: 10px;
+}
+
+.postsElList
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.postsEl
+{
+  // top: 185px;
+  // left: 10px;
+  margin-top: 10px;
+  width: 500px;
+  // height:200px;
+  background-color: white;
+  /* z-index: 1; */ 
+}
+
+.postsElHeader
+{
+  display:flex;
+  justify-content: space-between;
+  height:30px;
+  line-height: 30px;
+  // background-color: grey;
+}
+
+.seperator
+{
+  height:0px;
+  border-top:1px solid #e9e9e9;
+  width:480px;
+  // padding: 0 auto;
+  padding-bottom:6px;
+
+}
+
+// .boxHeader:after {
+//   clear: both;
+//   content: ".";
+//   display: block;
+//   font-size: 0;
+//   height: 0;
+//   line-height: 0;
+//   visibility: hidden;
+// }
+
+.stroriesItem .name
+{
+    color: #365899;
+    font-family: Helvetica;
+    font-size:13px;
+    font-weight: bold;
+    cursor:pointer; 
+}
+
+.stroriesItem .msg
+{
+  font-family: Helvetica;
+  font-size:13px;
+  color: #8d949e;
+  font-weight: normal;
+  padding-top:3px;
+}
+
+.postsElHeader .iconItem
+{
+  padding-right: 10px;
+}
+
+
+.peopleNote
+{
+  display: flex;
+  padding-top:10px;
+  padding-left: 10px;
+  // line-height: 60px;
+}
+
+.peoplePostImg img{
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.messageWrapper
+{
+  display:flex;
+  justify-content: flex-end;
+  width:425px;
+  line-height: 30px;
+  // padding-bottom:26px;//why it doesn't influence
+}
+
+.postMessage
+{
+  margin-right: 3px;
+  margin-top:6px;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #1d2129;
+  font-weight: normal;
+  padding-left: 30px;  
+}
+
+.postsElpic img
+{
+  position: relative;
+  width:500px;
+}
+
+.actionSummary
+{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height:30px;
+  line-height: 30px;
+}
+
+.summaryIconsAndLike
+{
+  display:flex;
+  justify-content: flex start;
+  width:300px;
+
+}
+
+.summaryIcons
+{
+  padding-left: 5px;
+}
+
+.summaryIcons img
+{
+  height: 24px;
+}
+
+.whoLikeIt
+{
+  font-family: Helvetica;
+  font-size: 13px;
+  color: #8d949e;
+  font-weight: normal;
+  // padding-top: 3px;
+  padding-left: 5px;
+}
+
+.numberOfComments
+{
+  font-family: Helvetica;
+  font-size: 13px;
+  color: #8d949e;
+  font-weight: normal;
+  // padding-top: 3px;  
+  padding-right: 10px;
+}
+.callToAction
+{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  height:40px;
+}
+
+.actionItem
+{
+  display:flex;
+  justify-content: center;
+  line-height: 40px;
+  width:160px;
+}
+
+.actionItem:hover
+{
+ background-color: gold;
+//  border:1px solid black;
+//  margin: 2px;
+}
+
+.actionItemIcon
+{
+  line-height: 40px; 
+  // width: 70px;
+}
+
+.actionItemIcon img
+{
+  // vertical-align: middle;
+  height:24px;
+  padding-top:6px;
+}
+
+.actionItemName
+{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5px;
+  // width:100px;
+  color: #365899;
+  font-family: Helvetica;
+  font-size:13px;
+  font-weight: bold;
+  cursor:pointer; 
+}
+
+// .actionItem:before 
+// {
+//   content: url('C:\Users\tomer\Desktop\VScode\project_27_5_facebook_scss\icons\thumb-up.png');
+//   display: block;
+//   width: 20px;
+//   height: 20px;
+//   float: left;
+//   margin: 0 6px 0 0;
+// }

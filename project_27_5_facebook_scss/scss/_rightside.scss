@@ -1,0 +1,126 @@
+
+.right-side{
+  position: absolute;
+  left:65%;  
+  /* border: solid 1px; */
+    
+}
+
+.RightFirstEl
+{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  width: 308px;
+  height:200px;
+  background-color: white; 
+}
+
+.RightFirstElHeader
+{
+  position:absolute;
+  display:inline-block;
+  // top: 10px;
+  // padding: 10px;
+  width: 308px;
+  height:30px;
+  // background-color: grey;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #1d2129;  
+ 
+}
+
+.RightFirstElHeaderWrapper
+{
+  display:flex;
+  justify-content: space-between;
+  margin:0px;
+  line-height: 30px;
+  // margin-bottom:50px;
+}
+
+.stroriesItem
+{
+  // line-height: 30px;
+  color: #1d2129;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.RightFirstElHeaderWrapper .iconItem
+{
+  padding-right: 10px;
+}
+
+.iconItem img
+{
+  width:15px;
+  height: 5px;
+}
+
+.RightFirstElContent
+{
+  position:absolute;
+  top: 50px;
+  // left: 10px;
+  width: 308px;
+  height:30px;
+  // background-color: grey; 
+}
+
+.peopleStoriesList
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.peopleStories
+{
+  display: flex;
+  padding-top:3px;
+  padding-left: 10px;
+  // line-height: 60px;
+}
+
+.peopleImg img{
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid #3578e5;
+  padding :3px;
+}
+
+.whoWhenUploaded
+{
+  display:flex;
+  flex-direction: column;  
+  height: 60px;
+  padding-left: 10px;
+  padding-top:10px;
+  // background-color: gold;
+
+  // display:inline-block;
+}
+
+.peopleName
+{
+  color: #365899;
+  font-family: Helvetica;
+  font-size:13px;
+  font-weight: bold;
+  cursor:pointer; 
+}
+
+.uploadingTime
+{
+  font-family: Helvetica;
+  font-size:12px;
+  color: #8d949e;
+  font-weight: normal;
+  padding-top:3px;
+}
+

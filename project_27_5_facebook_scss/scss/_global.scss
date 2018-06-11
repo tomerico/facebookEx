@@ -1,0 +1,14 @@
+body{
+    background-color: #e9ebee;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+    height: 800px;
+  
+    grid-template-areas:
+      "left middle right"
+  }

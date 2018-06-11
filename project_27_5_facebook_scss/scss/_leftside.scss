@@ -1,0 +1,105 @@
+
+.left-side{
+  position: fixed;
+  display: flex;
+  /* background: red; */
+  width: 30%;
+  height: 500px;  
+  flex-direction: column; 
+  Justify-content: center;   
+}
+ 
+.leftEnd
+{
+  display:flex;
+  Justify-content: flex-end; 
+  /* margin-top:50px;    */
+
+}
+.flex-item {  
+  Justify-content: flex-end;
+  width: 200px;  
+  height: 1000px;  
+  border-radius: 0%;
+  margin-top:10px;      
+  /* background: red;  */
+  /* align-items: flex-end;  */
+  /* background: linear-gradient(45deg, purple, blue);  */
+}
+
+.itemWrapper
+{
+  width: 140px;
+  height: 30px;
+}
+.item-1
+{
+  display: flex;
+  height:40px;
+  /* background-color: blue; */
+}
+
+.postItem
+{
+  display: flex;
+  height:32px;
+  padding: auto 0;
+}
+
+.itemWrapper:hover
+{
+  background-color: red;
+}
+
+.imgWrap img {
+  display: inline-block;
+  border-radius: 50%;
+  height:24px;
+  width:24px;
+  vertical-align: middle;
+}
+
+.nameWrap
+{
+  display: inline-block;
+  // margin-top:15px;
+  // margin-left: 10px;
+}
+
+.textStyle
+{
+  font-family: Helvetica;
+  font-size: 12px;
+  // font-weight: bold;
+  color: #1d2129;
+}
+
+.newsfeed
+{
+  display: inline-block;
+  margin-top:5px;
+  margin-left: 10px;
+  // height:40px;
+}
+
+.messanger
+{
+  display: inline-block;
+  margin-top:5px;
+  margin-left: 10px;  
+}
+
+.marketplace
+{
+  display: inline-block;
+  margin-top:5px;
+  margin-left: 10px;  
+}
+
+.logo img {
+  /* padding: 10px;*/
+  /* margin-top: 10px; */
+  /* border-radius: 50%; */
+  height:24px;
+  width:24px;
+}
