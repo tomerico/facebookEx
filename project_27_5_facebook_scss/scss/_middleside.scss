@@ -11,7 +11,7 @@
   top: 10px;
   left: 10px;
   width: 500px;
-  height:155px;
+  height:180px;
   background-color: white;
   /* border-radius: 1%; */
   /* z-index: 1; */ 
@@ -45,6 +45,57 @@
   // border-right: 1px solid purple;
 }
 
+.postDotsMenu
+{
+  display: none;
+
+
+}
+
+.iconItem
+{
+  position:relative;
+}
+
+.iconItem:hover .postDotsMenu
+{
+  position:absolute;
+  left: -20px;
+  display: block;
+  list-style-type: none;
+  background-color: red;
+  border: 1px solid black;
+
+}
+
+ul {
+  display: inline;
+ }
+ ul li {
+  display: inline-block;
+ }
+ ul li:hover {
+  background: blue;
+ }
+ ul li:hover ul {
+  display: block;
+ }
+ ul li ul {
+  position: absolute;
+  width: 150px;
+  display: none;
+ }
+ ul li ul li {
+  display: block; 
+  background: blue;
+ }
+ ul li ul li a {
+  display: block !important;
+ }
+ ul li ul li:hover {
+  background: lightblue;
+ }
+ 
 .verticalLine
 {
   border-left:1px solid #4b4f56; //#ff0000
@@ -139,6 +190,7 @@
   font-family: Helvetica;
   font-size: 12px;
   font-weight: bold;
+  line-height: 24px;
 }
 
 .feelingActivity
@@ -151,6 +203,7 @@
   font-family: Helvetica;
   font-size: 12px;
   font-weight: bold;
+  line-height: 24px;
 }
 
 .iconItemMore
@@ -159,12 +212,36 @@
   background-color:#f6f7f9;
   margin-left: 10px;
   border-radius: 5%;
+  line-height: 24px;
 }
 
 .iconItemMore img
 {
 //  width: 16px;
  height: 4px;
+}
+
+// .postButton {
+//   background-color: rgb(76, 107, 175);
+//   border: none;
+//   color: white;
+//   // padding: 15px 32px;
+//   text-align: center;
+//   text-decoration: none;
+//   // display: inline-block;
+//   font-size: 12px;
+//   margin: 4px 2px;
+//   cursor: pointer;
+// }
+
+textarea
+{
+ margin-top: 14px;
+ margin-left: 10px;
+ border: 0px;
+ width: 300px;
+ resize: none;
+
 }
 
 .posts

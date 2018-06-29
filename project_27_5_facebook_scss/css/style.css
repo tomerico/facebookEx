@@ -1,9 +1,9 @@
-/* line 1, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_global.scss */
+/* line 1, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_global.scss */
 body {
   background-color: #e9ebee;
 }
 
-/* line 5, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_global.scss */
+/* line 5, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_global.scss */
 .container {
   position: relative;
   top: 50px;
@@ -13,7 +13,7 @@ body {
   grid-template-areas: "left middle right";
 }
 
-/* line 2, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 2, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .nav-bar {
   position: fixed;
   z-index: 1;
@@ -23,13 +23,13 @@ body {
   background-color: #4267b2;
 }
 
-/* line 12, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 12, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .barWrapper {
   display: flex;
   justify-content: center;
 }
 
-/* line 18, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 18, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .bar {
   display: flex;
   justify-content: space-between;
@@ -38,58 +38,58 @@ body {
   line-height: 50px;
 }
 
-/* line 27, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 27, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .leftNavbar {
   display: flex;
   justify-content: flex-start;
   width: 500px;
 }
 
-/* line 35, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 35, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .logo {
   display: inline-block;
   padding-top: 7px;
 }
 
-/* line 42, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 42, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .logo img {
   height: 23px;
   width: 23px;
 }
 
-/* line 48, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 48, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .searchContainer {
   display: inline-block;
   padding-left: 5px;
 }
 
-/* line 56, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 56, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .searchBox {
   display: inline-block;
   height: 24px;
   width: 300px;
 }
 
-/* line 63, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 63, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .rightNavbar {
   display: flex;
   justify-content: flex-end;
   width: 400px;
 }
 
-/* line 71, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 71, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .username {
   display: flex;
   justify-content: space-between;
   line-height: 50px;
 }
 
-/* line 78, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 78, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .userPhoto {
   line-height: 50px;
 }
 
-/* line 83, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 83, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .navImgWrap {
   border-radius: 50%;
   height: 24px;
@@ -97,7 +97,7 @@ body {
   margin-top: 12px;
 }
 
-/* line 93, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 93, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .navNameWrap {
   margin-left: 8px;
   color: white;
@@ -105,7 +105,7 @@ body {
   font-size: 12px;
 }
 
-/* line 102, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 102, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .userHome {
   display: inline-block;
   margin-left: 14px;
@@ -115,12 +115,12 @@ body {
   line-height: 50px;
 }
 
-/* line 113, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 113, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .worldImg {
   line-height: 50px;
 }
 
-/* line 118, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_navbar.scss */
+/* line 118, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_navbar.scss */
 .worldImg img {
   height: 16px;
   width: 16px;
@@ -128,7 +128,7 @@ body {
   margin-top: 16px;
 }
 
-/* line 2, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 2, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .left-side {
   position: fixed;
   display: flex;
@@ -139,14 +139,14 @@ body {
   Justify-content: center;
 }
 
-/* line 12, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 12, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .leftEnd {
   display: flex;
   Justify-content: flex-end;
   /* margin-top:50px;    */
 }
 
-/* line 19, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 19, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .flex-item {
   Justify-content: flex-end;
   width: 200px;
@@ -158,32 +158,32 @@ body {
   /* background: linear-gradient(45deg, purple, blue);  */
 }
 
-/* line 30, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 30, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .itemWrapper {
   width: 140px;
   height: 30px;
 }
 
-/* line 35, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 35, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .item-1 {
   display: flex;
   height: 40px;
   /* background-color: blue; */
 }
 
-/* line 42, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 42, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .postItem {
   display: flex;
   height: 32px;
   padding: auto 0;
 }
 
-/* line 49, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 49, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .itemWrapper:hover {
   background-color: red;
 }
 
-/* line 54, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 54, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .imgWrap img {
   display: inline-block;
   border-radius: 50%;
@@ -192,40 +192,40 @@ body {
   vertical-align: middle;
 }
 
-/* line 62, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 62, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .nameWrap {
   display: inline-block;
 }
 
-/* line 69, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 69, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .textStyle {
   font-family: Helvetica;
   font-size: 12px;
   color: #1d2129;
 }
 
-/* line 77, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 77, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .newsfeed {
   display: inline-block;
   margin-top: 5px;
   margin-left: 10px;
 }
 
-/* line 85, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 85, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .messanger {
   display: inline-block;
   margin-top: 5px;
   margin-left: 10px;
 }
 
-/* line 92, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 92, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .marketplace {
   display: inline-block;
   margin-top: 5px;
   margin-left: 10px;
 }
 
-/* line 99, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_leftside.scss */
+/* line 99, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_leftside.scss */
 .logo img {
   /* padding: 10px;*/
   /* margin-top: 10px; */
@@ -234,25 +234,25 @@ body {
   width: 24px;
 }
 
-/* line 1, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 1, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .middle {
   position: absolute;
   left: 30%;
   /* border: solid 1px; */
 }
 
-/* line 8, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 8, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .firstEl {
   top: 10px;
   left: 10px;
   width: 500px;
-  height: 155px;
+  height: 180px;
   background-color: white;
   /* border-radius: 1%; */
   /* z-index: 1; */
 }
 
-/* line 21, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 21, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .boxHeader {
   display: flex;
   justify-content: flex-start;
@@ -261,7 +261,7 @@ body {
   height: 30px;
 }
 
-/* line 32, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 32, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .boxHeader::after {
   position: absolute;
   border-bottom: 8px solid #fff;
@@ -272,18 +272,81 @@ body {
   top: 34px;
 }
 
-/* line 42, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 42, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .boxHeaderItem {
   display: flex;
 }
 
-/* line 48, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 48, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+.postDotsMenu {
+  display: none;
+}
+
+/* line 55, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+.iconItem {
+  position: relative;
+}
+
+/* line 60, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+.iconItem:hover .postDotsMenu {
+  position: absolute;
+  left: -20px;
+  display: block;
+  list-style-type: none;
+  background-color: red;
+  border: 1px solid black;
+}
+
+/* line 71, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul {
+  display: inline;
+}
+
+/* line 74, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul li {
+  display: inline-block;
+}
+
+/* line 77, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul li:hover {
+  background: blue;
+}
+
+/* line 80, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul li:hover ul {
+  display: block;
+}
+
+/* line 83, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul li ul {
+  position: absolute;
+  width: 150px;
+  display: none;
+}
+
+/* line 88, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul li ul li {
+  display: block;
+  background: blue;
+}
+
+/* line 92, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul li ul li a {
+  display: block !important;
+}
+
+/* line 95, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+ul li ul li:hover {
+  background: lightblue;
+}
+
+/* line 99, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .verticalLine {
   border-left: 1px solid #4b4f56;
   line-height: 1.5;
 }
 
-/* line 59, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 110, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .makePost {
   display: flex;
   justify-content: center;
@@ -294,7 +357,7 @@ body {
   color: #1d2129;
 }
 
-/* line 70, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 121, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .photoVideo {
   display: flex;
   justify-content: center;
@@ -305,7 +368,7 @@ body {
   color: #1d2129;
 }
 
-/* line 81, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 132, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .LiveVideo {
   display: flex;
   justify-content: center;
@@ -316,12 +379,12 @@ body {
   color: #1d2129;
 }
 
-/* line 92, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 143, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .boxContent {
   padding: 15px;
 }
 
-/* line 97, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 148, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .boxContent .imgWrapContent img {
   width: 48px;
   height: 48px;
@@ -330,12 +393,12 @@ body {
   vertical-align: middle;
 }
 
-/* line 106, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 157, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .imgWrapContent {
   display: inline-block;
 }
 
-/* line 111, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 162, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .yourMindText {
   display: inline-block;
   font-family: Helvetica;
@@ -344,19 +407,19 @@ body {
   font-weight: normal;
 }
 
-/* line 121, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 172, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .userThoughts {
   margin-bottom: 10px;
 }
 
-/* line 126, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 177, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .userInfo {
   display: flex;
   justify-content: flex-start;
   line-height: 18px;
 }
 
-/* line 133, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 184, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .photoVideoUplaoding {
   padding: 6px;
   background-color: #f6f7f9;
@@ -365,9 +428,10 @@ body {
   font-family: Helvetica;
   font-size: 12px;
   font-weight: bold;
+  line-height: 24px;
 }
 
-/* line 144, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 196, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .feelingActivity {
   padding: 6px;
   background-color: #f6f7f9;
@@ -377,22 +441,33 @@ body {
   font-family: Helvetica;
   font-size: 12px;
   font-weight: bold;
+  line-height: 24px;
 }
 
-/* line 156, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 209, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .iconItemMore {
   padding: 6px;
   background-color: #f6f7f9;
   margin-left: 10px;
   border-radius: 5%;
+  line-height: 24px;
 }
 
-/* line 164, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 218, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .iconItemMore img {
   height: 4px;
 }
 
-/* line 170, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 237, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+textarea {
+  margin-top: 14px;
+  margin-left: 10px;
+  border: 0px;
+  width: 300px;
+  resize: none;
+}
+
+/* line 247, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .posts {
   display: flex;
   justify-content: space-around;
@@ -400,14 +475,14 @@ body {
   margin-top: 10px;
 }
 
-/* line 178, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 255, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .postsElList {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* line 185, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 262, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .postsEl {
   margin-top: 10px;
   width: 500px;
@@ -415,7 +490,7 @@ body {
   /* z-index: 1; */
 }
 
-/* line 196, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 273, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .postsElHeader {
   display: flex;
   justify-content: space-between;
@@ -423,7 +498,7 @@ body {
   line-height: 30px;
 }
 
-/* line 205, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 282, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .seperator {
   height: 0px;
   border-top: 1px solid #e9e9e9;
@@ -431,7 +506,7 @@ body {
   padding-bottom: 6px;
 }
 
-/* line 225, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 302, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .stroriesItem .name {
   color: #365899;
   font-family: Helvetica;
@@ -440,7 +515,7 @@ body {
   cursor: pointer;
 }
 
-/* line 234, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 311, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .stroriesItem .msg {
   font-family: Helvetica;
   font-size: 13px;
@@ -449,35 +524,34 @@ body {
   padding-top: 3px;
 }
 
-/* line 243, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 320, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .postsElHeader .iconItem {
   padding-right: 10px;
 }
 
-/* line 249, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 326, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .peopleNote {
   display: flex;
   padding-top: 10px;
   padding-left: 10px;
 }
 
-/* line 257, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 334, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .peoplePostImg img {
   width: 50px;
   height: 50px;
   border-radius: 50px;
 }
 
-/* line 263, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 340, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .messageWrapper {
   display: flex;
   justify-content: flex-end;
   width: 425px;
   line-height: 30px;
-  padding-bottom: 26px;
 }
 
-/* line 272, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 349, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .postMessage {
   margin-right: 3px;
   margin-top: 6px;
@@ -488,13 +562,13 @@ body {
   padding-left: 30px;
 }
 
-/* line 283, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 360, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .postsElpic img {
   position: relative;
   width: 500px;
 }
 
-/* line 289, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 366, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .actionSummary {
   display: flex;
   justify-content: space-between;
@@ -503,24 +577,24 @@ body {
   line-height: 30px;
 }
 
-/* line 298, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 375, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .summaryIconsAndLike {
   display: flex;
   justify-content: flex start;
   width: 300px;
 }
 
-/* line 306, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 383, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .summaryIcons {
   padding-left: 5px;
 }
 
-/* line 311, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 388, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .summaryIcons img {
   height: 24px;
 }
 
-/* line 316, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 393, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .whoLikeIt {
   font-family: Helvetica;
   font-size: 13px;
@@ -529,7 +603,7 @@ body {
   padding-left: 5px;
 }
 
-/* line 326, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 403, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .numberOfComments {
   font-family: Helvetica;
   font-size: 13px;
@@ -538,7 +612,7 @@ body {
   padding-right: 10px;
 }
 
-/* line 335, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 412, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .callToAction {
   display: flex;
   position: relative;
@@ -546,7 +620,7 @@ body {
   height: 40px;
 }
 
-/* line 343, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 420, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .actionItem {
   display: flex;
   justify-content: center;
@@ -554,23 +628,23 @@ body {
   width: 160px;
 }
 
-/* line 351, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 428, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .actionItem:hover {
   background-color: gold;
 }
 
-/* line 358, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 435, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .actionItemIcon {
   line-height: 40px;
 }
 
-/* line 364, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 441, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .actionItemIcon img {
   height: 24px;
   padding-top: 6px;
 }
 
-/* line 371, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 448, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .actionItemName {
   display: flex;
   justify-content: flex-start;
@@ -582,14 +656,14 @@ body {
   cursor: pointer;
 }
 
-/* line 2, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 2, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .right-side {
   position: absolute;
   left: 65%;
   /* border: solid 1px; */
 }
 
-/* line 9, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 9, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .RightFirstEl {
   position: absolute;
   top: 10px;
@@ -599,7 +673,7 @@ body {
   background-color: white;
 }
 
-/* line 19, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 19, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .RightFirstElHeader {
   position: absolute;
   display: inline-block;
@@ -612,7 +686,7 @@ body {
   color: #1d2129;
 }
 
-/* line 36, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 36, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .RightFirstElHeaderWrapper {
   display: flex;
   justify-content: space-between;
@@ -620,25 +694,25 @@ body {
   line-height: 30px;
 }
 
-/* line 45, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 45, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .stroriesItem {
   color: #1d2129;
   font-weight: bold;
   padding-left: 10px;
 }
 
-/* line 53, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 53, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .RightFirstElHeaderWrapper .iconItem {
   padding-right: 10px;
 }
 
-/* line 58, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 58, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .iconItem img {
   width: 15px;
   height: 5px;
 }
 
-/* line 64, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 64, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .RightFirstElContent {
   position: absolute;
   top: 50px;
@@ -646,21 +720,21 @@ body {
   height: 30px;
 }
 
-/* line 74, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 74, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .peopleStoriesList {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* line 81, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 81, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .peopleStories {
   display: flex;
   padding-top: 3px;
   padding-left: 10px;
 }
 
-/* line 89, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 89, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .peopleImg img {
   width: 50px;
   height: 50px;
@@ -669,7 +743,7 @@ body {
   padding: 3px;
 }
 
-/* line 97, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 97, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .whoWhenUploaded {
   display: flex;
   flex-direction: column;
@@ -678,7 +752,7 @@ body {
   padding-top: 10px;
 }
 
-/* line 109, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 109, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .peopleName {
   color: #365899;
   font-family: Helvetica;
@@ -687,7 +761,7 @@ body {
   cursor: pointer;
 }
 
-/* line 118, C:/Users/tomer/Desktop/VScode/project_27_5_facebook_scss/scss/_rightside.scss */
+/* line 118, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_rightside.scss */
 .uploadingTime {
   font-family: Helvetica;
   font-size: 12px;
