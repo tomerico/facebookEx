@@ -234,13 +234,14 @@ ul {
 //   cursor: pointer;
 // }
 
-textarea
+.yourMindText textarea
 {
  margin-top: 14px;
  margin-left: 10px;
  border: 0px;
  width: 300px;
  resize: none;
+ outline:0;
 
 }
 
@@ -457,6 +458,110 @@ textarea
   font-weight: bold;
   cursor:pointer; 
 }
+
+.commentsWrapper
+{
+  display: flex;
+  justify-content: flex-start;
+  // height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+
+.commentMsg
+{
+  border-radius: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #eff1f3;
+  // line-height: 20px;
+
+}
+
+.likes img
+{
+  width: 24px;
+  height: 24px;
+
+}
+
+.actionToComment
+{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.likeComment
+{
+  width: 30px;
+  height: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: auto 0 0;
+}
+
+.likeComment a
+{
+  color: #365899;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none
+}
+
+.replyToComment
+{
+  width: 30px;
+  height: 20px;
+  margin-right: 20px;
+  padding: auto 0 0;
+}
+
+.replyToComment a
+{
+  color: #365899;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.addCommentWrapper
+{
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+
+.imgWrap img
+{
+  line-height: 40px;
+}
+
+.writeComment
+{
+  height: 25px;
+  line-height: 40px;
+}
+
+.writeComment textarea
+{
+
+  height: 25px;
+  width:450px;
+  margin-left: 10px;
+  border: 1px solid #f2f3f5;
+  border-radius: 16px;
+  overflow: auto;
+  outline:0;
+  resize: none;
+}
+
+textarea
+{
+  line-height: 25px;
+}
+
 
 // .actionItem:before 
 // {
