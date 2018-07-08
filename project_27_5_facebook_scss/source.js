@@ -246,17 +246,19 @@ class Commentbody
             </div>                      
         </div>
     `;
-    this.addLike(this.likesCounter);  
+    let x = this.el.querySelector('.likesCounter')
+    this.addLike(x);  
     } 
     
-    addLike()
+    addLike(y)
     {
         this.likeComment=this.el.querySelector('.likeComment');
         console.log(this.likeComment);
         this.likeComment.addEventListener('click', (event) => {
             event.preventDefault();
             this.likesCounter +=1;
-
+            this.likes = this.el.querySelector('.likesCounter');
+            this.likes.innerText = this.likesCounter;
             console.log("helloooooww", this.likesCounter);
             let likeCounter = new LikeCounter();
 
@@ -270,8 +272,6 @@ class LikeCounter
   constructor(){
     console.log("tommmmmmmmmmer");
   }
-
-
 }
 
 // let x = document.querySelector('.boxContent');
