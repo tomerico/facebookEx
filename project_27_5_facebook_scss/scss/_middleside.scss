@@ -508,6 +508,25 @@ ul {
   text-decoration: none
 }
 
+.likesCounter
+{
+  display: flex;
+  justify-content: center;
+  width:10px;
+  height:10px;
+  border: 1px solid yellow;
+  border-radius: 12px;
+  background-color: yellow;
+  margin-left: -5px;
+}
+
+.likesCounterNumber
+{
+  font-size: 10px;
+  color: red;
+  line-height: 10px;
+}
+
 .replyToComment
 {
   width: 30px;

@@ -703,6 +703,25 @@ ul li ul li:hover {
 }
 
 /* line 511, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+.likesCounter {
+  display: flex;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  border: 1px solid yellow;
+  border-radius: 12px;
+  background-color: yellow;
+  margin-left: -5px;
+}
+
+/* line 523, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+.likesCounterNumber {
+  font-size: 10px;
+  color: red;
+  line-height: 10px;
+}
+
+/* line 530, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .replyToComment {
   width: 30px;
   height: 20px;
@@ -710,7 +729,7 @@ ul li ul li:hover {
   padding: auto 0 0;
 }
 
-/* line 519, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 538, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .replyToComment a {
   color: #365899;
   cursor: pointer;
@@ -718,7 +737,7 @@ ul li ul li:hover {
   text-decoration: none;
 }
 
-/* line 527, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 546, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .addCommentWrapper {
   display: flex;
   justify-content: flex-start;
@@ -727,18 +746,18 @@ ul li ul li:hover {
   margin-bottom: 10px;
 }
 
-/* line 536, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 555, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .imgWrap img {
   line-height: 40px;
 }
 
-/* line 541, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 560, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .writeComment {
   height: 25px;
   line-height: 40px;
 }
 
-/* line 547, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 566, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 .writeComment textarea {
   height: 25px;
   width: 450px;
@@ -750,7 +769,7 @@ ul li ul li:hover {
   resize: none;
 }
 
-/* line 560, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
+/* line 579, C:/Users/tomer/Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/scss/_middleside.scss */
 textarea {
   line-height: 25px;
 }

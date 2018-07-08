@@ -79,7 +79,7 @@ class Post {
                         <a href="#"><img src=${"\icons\\dotsmenu.png"}></a>
                         <ul class="postDotsMenu">
                             <li> 
-                                <button class="removeButton">remove post</button>
+                                // <button class="removeButton">remove post</button>
                             </li>
                         </ul>   
                                                                                   
@@ -219,7 +219,7 @@ class Commentbody
 {
     constructor(commentText){
     this.likesCounter = 0;    
-    let actionTime = new Date();    
+    let actionTime = new Date();   //setTimeout, setInterval 
     this.el = document.createElement('div');
     this.el.innerHTML = `
         <div class = "commentsWrapper">
@@ -231,7 +231,9 @@ class Commentbody
                 <img src=${"\icons\\like_icon_in_circule.png"} alt="like">
             </div>
             <div class="likesCounter">
-                ${this.likesCounter}
+                <div class="likesCounterNumber">
+                    ${this.likesCounter}
+                </div>
             </div>
         </div>
         <div class="actionToComment">
@@ -240,7 +242,7 @@ class Commentbody
             </div>
             <div class="replyToComment">
                 <a href="#">reply</a>
-            </div>   
+            </div>
             <div class="actionTime">
                 ${actionTime}
             </div>                      
@@ -257,7 +259,7 @@ class Commentbody
         this.likeComment.addEventListener('click', (event) => {
             event.preventDefault();
             this.likesCounter +=1;
-            this.likes = this.el.querySelector('.likesCounter');
+            this.likes = this.el.querySelector('.likesCounterNumber');
             this.likes.innerText = this.likesCounter;
             console.log("helloooooww", this.likesCounter);
             let likeCounter = new LikeCounter();
