@@ -180,7 +180,8 @@ class Post {
   }
 
   addComment(){
-    new Comment(this.el.querySelector('.postsEl'));
+    let comment = new Comment(this.el.querySelector('.postsEl'));
+    // this.comments.push(comment);
   }
   
   remove() {
