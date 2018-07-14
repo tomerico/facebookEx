@@ -1,72 +1,77 @@
+
+// require('juqery')
+
 class User1 {
-    constructor(name, lastname){
-      this.name = name;
-      this.lastname = lastname;
+    constructor(name, lastname) {
+        this.name = name;
+        this.lastname = lastname;
     }
-    
+
     get fullname() {
-      return `${this.name} ${this.lastname}`;
+        return `${this.name} ${this.lastname}`;
     }
-  }
+}
 
 fetch('http://127.0.0.1:6200')
     .then((data) => {
-        console.log("hello1112", data);  
+        console.log("hello1112", data);
         data.json()
-        .then((res) => {
-            localStorage.setItem("res", JSON.stringify(res)); 
-            res.posts.forEach(element => {    
-                console.log("piccccccc", element.pic);    
-                const feed = new getPosts(element.message, element.author, element.likes);
+            .then((res) => {
+                localStorage.setItem("res", JSON.stringify(res));
+                res.posts.forEach(element => {
+                    console.log("piccccccc", element.pic);
+                    const feed = new getPosts(element.message, element.author, element.likes);
+                });
             });
-        });
-    }).catch(function() {
+    }).catch(function () {
         let values = JSON.parse(localStorage.getItem("res"));
-        values.posts.forEach(element => { 
+        values.posts.forEach(element => {
             const feed = new getPosts(element.message, element.author, element.likes);
         })
     });
 
 
-class getPosts{
-    constructor(message, author, likes){
+class getPosts {
+    constructor(message, author, likes) {
         console.log("FeedPost222");
-        this.message=message;
-        this.author=author;   
-        this.likes=likes;             
+        this.message = message;
+        this.author = author;
+        this.likes = likes;
         this.uploadPosts();
 
     }
-    uploadPosts(){
+    uploadPosts() {
         const post = new Post(this.message, this.author, this.likes)
-        document.querySelector('.postsElList').appendChild(post.el);
-      }
+        // document.find('.postsElList').append(post.el);
+        $('.postsElList').append(post.el);
+
+    }
 }
 
 class Feed {
-  constructor(feedEl){
-    this.feedEl = feedEl; //copy the html that posts class
-    this.user = new User1('Tomer', 'Dahan'); //create an instance of user
-    this.postButton = this.feedEl.querySelector('.postButton');
-    console.log("hhhh", this.postButton);
+    constructor(feedEl) {
+        this.feedEl = feedEl; //copy the html that posts class
+        this.user = new User1('Tomer', 'Dahan'); //create an instance of user
+        this.postButton = this.feedEl.querySelector('.postButton');
+        console.log("hhhh", this.postButton);
 
-    this.textArea = this.feedEl.querySelector('textarea');
-    this.postButton.addEventListener('click', () => this.createPost());
-  }
-  
-  createPost() {
-    let postBody = this.textArea.value;
-    this.textArea.value = '';
-    let post = new Post(postBody, this.user);
-    this.feedEl.appendChild(post.el);
-  }
+        this.textArea = this.feedEl.querySelector('textarea');
+        this.postButton.addEventListener('click', () => this.createPost());
+    }
+
+    createPost() {
+        let postBody = this.textArea.value;
+        this.textArea.value = '';
+        let post = new Post(postBody, this.user);
+        this.feedEl.appendChild(post.el);
+    }
 }
 
 class Post {
-  constructor(postBody, author, likes) {
-    console.log("fullllnameee", author); 
-    this.el = document.createElement('article');
-    this.el.innerHTML = `
+    constructor(postBody, author, likes) {
+        console.log("fullllnameee", author);
+        // this.el = document.createElement('article');
+        this.el = $("<article></article>").html(`
         <div class="postsEl">
             <div class="postsElHeader">
                 <div class=stroriesItem>
@@ -172,68 +177,69 @@ class Post {
             </div>                                                               
         </div>  
 
-`;
-    
-    this.removeButton = this.el.querySelector('.removeButton');
-    this.removeButton.addEventListener('click', () => this.remove());
-    this.addComment();
-  }
+`);
 
-  addComment(){
-    let comment = new Comment(this.el.querySelector('.postsEl'));
-    // this.comments.push(comment);
-  }
-  
-  remove() {
-    this.el.parentNode.removeChild(this.el);
-  }
+        this.removeButton = this.el.find('.removeButton');
+        this.removeButton.on('click', () => this.remove());
+        this.addComment();
+    }
+
+    addComment() {
+        let comment = new Comment(this.el.find('.postsEl'));
+        // this.comments.push(comment);
+    }
+
+    remove() {
+        this.el.parentNode.removeChild(this.el);
+    }
 }
 
-class Comment{
-    constructor(postEl){
+class Comment {
+    constructor(postEl) {
         this.postEl = postEl; //copy the html that posts class
-        this.textArea = this.postEl.querySelector('textarea');
+        this.textArea = this.postEl.find('textarea');
         this.el = document.createElement('div');//for holding the comment
-  
+
         // this.textArea.addEventListener('keypress', function (event) { //event is the event, returned value after the action
-        this.textArea.addEventListener('keyup', (event) => {
+        this.textArea.on('keyup', (event) => {
             let key = event.which || event.keyCode;
             if (key === 13) // 13 is enter
-            { 
+            {
                 //debugger; 
                 this.createComment(event.target.value);
 
             }
         });
     }//close constructor 
-      
+
     createComment(commentText) {
         debugger;
-        console.log("addcommenttttttttt", commentText);  
-        this.textArea.value = '';
+        console.log("addcommenttttttttt", commentText);
+        this.textArea.val('');
         let commentBody = new Commentbody(commentText);
-        this.postEl.querySelector('.postComments').appendChild(commentBody.el);
-    }    
+        this.postEl.find('.postComments').append(commentBody.el);
+    }
 }//close class Comment
 
-class Commentbody
-{
-    constructor(commentText){
-    this.likesCounter = 0;    
-    let actionTime = new Date();   //setTimeout, setInterval 
-    this.el = document.createElement('div');
-    this.el.innerHTML = `
+class Commentbody {
+    constructor(commentText) {
+        this.likesCounter = 0;
+        let actionTime = new Date();   //setTimeout, setInterval 
+        this.el = document.createElement('div');
+        this.el.innerHTML = `
         <div class = "commentsWrapper">
             <div class="imgWrap">
                 <img src=${"\images\\tomer.png"} alt="Tomer Dahan">
             </div> 
             <div class="commentMsg">${commentText}</div>
-            <div class="likes">
-                <img src=${"\icons\\like_icon_in_circule.png"} alt="like">
-            </div>
-            <div class="likesCounter">
-                <div class="likesCounterNumber">
-                    ${this.likesCounter}
+            <div class="moshe">
+                <div class="likes">
+                    <img src=${"\icons\\like_icon_in_circule.png"} alt="like">
+                </div>
+                <div class="likesCounter">
+                    <div class="likesCounterNumber">
+                        ${this.likesCounter}
+                    </div>
                 </div>
             </div>
         </div>
@@ -249,17 +255,22 @@ class Commentbody
             </div>                      
         </div>
     `;
-    let x = this.el.querySelector('.likesCounter')
-    this.addLike(x);  
-    } 
-    
-    addLike(y)
-    {
-        this.likeComment=this.el.querySelector('.likeComment');
+        // let x = this.el.querySelector('.likesCounter')
+        if (this.likesCounter === 0) {
+            this.el.querySelector('.moshe').style.display = 'none';
+        }
+
+        this.addLike();
+    }
+
+    addLike() {
+        this.likeComment = this.el.querySelector('.likeComment');
         console.log(this.likeComment);
+
         this.likeComment.addEventListener('click', (event) => {
             event.preventDefault();
-            this.likesCounter +=1;
+            this.el.querySelector('.moshe').style.display = 'flex';
+            this.likesCounter += 1;
             this.likes = this.el.querySelector('.likesCounterNumber');
             this.likes.innerText = this.likesCounter;
             console.log("helloooooww", this.likesCounter);
@@ -270,11 +281,10 @@ class Commentbody
     }
 }
 
-class LikeCounter
-{
-  constructor(){
-    console.log("tommmmmmmmmmer");
-  }
+class LikeCounter {
+    constructor() {
+        console.log("tommmmmmmmmmer");
+    }
 }
 
 // let x = document.querySelector('.boxContent');
