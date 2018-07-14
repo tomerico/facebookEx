@@ -1,5 +1,5 @@
 // 'use strict';
-// require('./Posts');
+let Post = require('./posts.js');
 
 class GetPosts {
     constructor(message, author, likes) {
@@ -17,6 +17,9 @@ class GetPosts {
 
     }
 }
+
+
+module.exports = GetPosts;
 
 // module.exports = GetPosts;
 // let getPosts = new GetPosts();

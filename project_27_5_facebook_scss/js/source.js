@@ -1,6 +1,6 @@
 //const $ = require('jquery');
-// require('./GetPosts');
-
+const Feed = require('./feed.js');
+const GetPosts = require('./getposts.js');
 
 fetch('http://127.0.0.1:6200')
     .then((data) => {

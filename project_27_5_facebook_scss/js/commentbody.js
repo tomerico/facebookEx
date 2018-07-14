@@ -9,7 +9,7 @@ class Commentbody {
                 <img src=${"\images\\tomer.png"} alt="Tomer Dahan">
             </div> 
             <div class="commentMsg">${commentText}</div>
-            <div class="moshe">
+            <div class="commentLikeWrapper">
                 <div class="likes">
                     <img src=${"\icons\\like_icon_in_circule.png"} alt="like">
                 </div>
@@ -34,7 +34,7 @@ class Commentbody {
     `;
         // let x = this.el.querySelector('.likesCounter')
         if (this.likesCounter === 0) {
-            this.el.querySelector('.moshe').style.display = 'none';
+            this.el.querySelector('.commentLikeWrapper').style.display = 'none';
         }
 
         this.addLike();
@@ -46,7 +46,7 @@ class Commentbody {
 
         this.likeComment.addEventListener('click', (event) => {
             event.preventDefault();
-            this.el.querySelector('.moshe').style.display = 'flex';
+            this.el.querySelector('.commentLikeWrapper').style.display = 'flex';
             this.likesCounter += 1;
             this.likes = this.el.querySelector('.likesCounterNumber');
             this.likes.innerText = this.likesCounter;
@@ -57,3 +57,6 @@ class Commentbody {
         // console.log("tomerrrrrrrrrr",this.counter);       
     }
 }
+
+
+module.exports = Commentbody;

@@ -1,3 +1,6 @@
+let User1 = require('./user.js');
+let Post = require('./posts.js');
+
 
 class Feed {
     constructor(feedEl) {
@@ -17,3 +20,5 @@ class Feed {
         this.feedEl.appendChild(post.el);
     }
 }
+
+module.exports = Feed;

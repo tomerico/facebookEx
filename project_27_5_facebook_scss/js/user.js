@@ -8,3 +8,5 @@ class User1 {
         return `${this.name} ${this.lastname}`;
     }
 }
+
+module.exports = User1;

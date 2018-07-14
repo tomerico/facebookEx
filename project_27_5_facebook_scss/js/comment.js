@@ -1,4 +1,6 @@
 
+let Commentbody = require('./commentbody.js');
+
 class Comment {
     constructor(postEl) {
         this.postEl = postEl; //copy the html that posts class
@@ -25,3 +27,6 @@ class Comment {
         this.postEl.find('.postComments').append(commentBody.el);
     }
 }//close class Comment
+
+
+module.exports = Comment;

@@ -1,4 +1,6 @@
 
+let Comment = require('./comment.js');
+
 class Post {
     constructor(postBody, author, likes) {
         console.log("fullllnameee", author);
@@ -125,6 +127,8 @@ class Post {
         this.el.parentNode.removeChild(this.el);
     }
 }
+
+module.exports = Post;
 
 // let Post = new Post();
 
