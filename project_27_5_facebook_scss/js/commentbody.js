@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 export class Commentbody {
     constructor(commentText) {
         this.likesCounter = 0;
@@ -32,23 +34,22 @@ export class Commentbody {
             </div>                      
         </div>
     `;
-        // let x = this.el.querySelector('.likesCounter')
         if (this.likesCounter === 0) {
-            this.el.querySelector('.commentLikeWrapper').style.display = 'none';
+            this.el.find('.commentLikeWrapper').style.display = 'none';
         }
 
         this.addLike();
     }
 
     addLike() {
-        this.likeComment = this.el.querySelector('.likeComment');
+        this.likeComment = this.el.find('.likeComment');
         console.log(this.likeComment);
 
         this.likeComment.addEventListener('click', (event) => {
             event.preventDefault();
-            this.el.querySelector('.commentLikeWrapper').style.display = 'flex';
+            this.el.find('.commentLikeWrapper').style.display = 'flex';
             this.likesCounter += 1;
-            this.likes = this.el.querySelector('.likesCounterNumber');
+            this.likes = this.el.find('.likesCounterNumber');
             this.likes.innerText = this.likesCounter;
             console.log("helloooooww", this.likesCounter);
             let likeCounter = new LikeCounter();

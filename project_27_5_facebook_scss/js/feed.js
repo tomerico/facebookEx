@@ -25,7 +25,6 @@ export class Feed {
         });
     }
 
-
     createPost() {
         let postBody = this.textArea.val();
         this.textArea.val('');
