@@ -1,7 +1,7 @@
 
-let Commentbody = require('./commentbody.js');
+import {Commentbody} from './commentbody.js';
 
-class Comment {
+export class Comment {
     constructor(postEl) {
         this.postEl = postEl; //copy the html that posts class
         this.textArea = this.postEl.find('textarea');
@@ -27,4 +27,3 @@ class Comment {
     }
 }//close class Comment
 
-module.exports = Comment;

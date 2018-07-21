@@ -1,8 +1,11 @@
-let User1 = require('./user.js');
+import {User1} from './user.js';
 import {Post} from './posts.js';
+import {ServerService} from './services.js';
+import {GetPosts} from "./getposts";
 
 export class Feed {
     constructor(feedEl) {
+        this.fetchFromServer();
         this.feedEl = feedEl; //copy the html that posts class
         this.user = new User1('Tomer', 'Dahan'); //create an instance of user
         this.postButton = this.feedEl.find('.postButton');
@@ -12,6 +15,17 @@ export class Feed {
         this.postButton.on('click', () => this.createPost());
     }
 
+    fetchFromServer()
+    {
+        ServerService.getMyPost()
+        .then(res => {
+            res.posts.forEach(element => {
+                const feed = new GetPosts(element.message, element.author, element.likes);
+            });
+        });
+    }
+
+
     createPost() {
         let postBody = this.textArea.val();
         this.textArea.val('');
@@ -19,3 +33,4 @@ export class Feed {
         this.feedEl.append(post.el);
     }
 }
+

@@ -1,5 +1,5 @@
 import $ from 'jquery';
-let Comment = require('./comment.js');
+import {Comment} from './comment.js';
 
 export class Post {
     constructor(postBody, author, likes) {

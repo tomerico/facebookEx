@@ -1,4 +1,4 @@
-class Commentbody {
+export class Commentbody {
     constructor(commentText) {
         this.likesCounter = 0;
         let actionTime = new Date().toLocaleDateString("en-US");   //setTimeout, setInterval 
@@ -56,5 +56,3 @@ class Commentbody {
         });    
     }
 }
-
-module.exports = Commentbody;

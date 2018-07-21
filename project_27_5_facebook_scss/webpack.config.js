@@ -4,7 +4,7 @@ module.exports = {
     // entry: ['webpack-serve/client?http://127.0.0.1:6200',
     //         './js/source.js'
     // ],
-    entry:'./js/source.js',
+    entry:'./js/main.js',
     output: {
         filename: 'app.js'
     },
