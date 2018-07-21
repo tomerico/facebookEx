@@ -1,7 +1,7 @@
-// 'use strict';
-let Post = require('./posts.js');
+import $ from 'jquery';
+import {Post} from './posts.js';
 
-class GetPosts {
+export class GetPosts {
     constructor(message, author, likes) {
         console.log("FeedPost222");
         this.message = message;
@@ -18,12 +18,6 @@ class GetPosts {
     }
 }
 
+//module.exports = GetPosts;
 
-module.exports = GetPosts;
 
-// module.exports = GetPosts;
-// let getPosts = new GetPosts();
-
-// module.exports = {
-//     getPosts
-// };

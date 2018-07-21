@@ -14,7 +14,6 @@ class Comment {
             {
                 //debugger; 
                 this.createComment(event.target.value);
-
             }
         });
     }//close constructor 
@@ -27,6 +26,5 @@ class Comment {
         this.postEl.find('.postComments').append(commentBody.el);
     }
 }//close class Comment
-
 
 module.exports = Comment;

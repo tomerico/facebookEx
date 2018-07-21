@@ -53,10 +53,8 @@ class Commentbody {
             console.log("helloooooww", this.likesCounter);
             let likeCounter = new LikeCounter();
 
-        });
-        // console.log("tomerrrrrrrrrr",this.counter);       
+        });    
     }
 }
-
 
 module.exports = Commentbody;

@@ -1,7 +1,7 @@
-
+import $ from 'jquery';
 let Comment = require('./comment.js');
 
-class Post {
+export class Post {
     constructor(postBody, author, likes) {
         console.log("fullllnameee", author);
         // this.el = document.createElement('article');
@@ -18,7 +18,7 @@ class Post {
                         <a href="#"><img src=${"\icons\\dotsmenu.png"}></a>
                         <ul class="postDotsMenu">
                             <li> 
-                                // <button class="removeButton">remove post</button>
+                                
                             </li>
                         </ul>   
                                                                                   
@@ -107,12 +107,15 @@ class Post {
                     <div class="writeComment">
                         <textarea placeholder="Write a comment"></textarea>
                     </div> 
-                </div>                                 
+                </div>
+                <div>
+                    <button class="removeButton">remove post2</button>  
+                </div>                               
             </div>                                                               
         </div>  
 
 `);
-
+        
         this.removeButton = this.el.find('.removeButton');
         this.removeButton.on('click', () => this.remove());
         this.addComment();
@@ -127,11 +130,3 @@ class Post {
         this.el.parentNode.removeChild(this.el);
     }
 }
-
-module.exports = Post;
-
-// let Post = new Post();
-
-// module.exports = {
-//     Post
-// };
